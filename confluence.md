@@ -37,10 +37,7 @@ sudo apt install adoptopenjdk-13-hotspot
 
 ```bash
 cd /root/confluence/confluence/WEB-INF/lib
-
-wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-8.0.26.tar.gz
-tar -xzf mysql-connector-java-8.0.26.tar.gz
-mv mysql-connector-java-8.0.26/mysql-connector-java-8.0.26.jar mysql-connector-java-8.0.26.jar
+wget https://github.com/ctbuh/useful/raw/master/lib/mysql-connector-java-8.0.26.jar
 ```
 
 ### Update confluence home directory
